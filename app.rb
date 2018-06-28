@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   get "/" do
-    erb :view_form
+    erb :new
   end
 
   get "/display" do
